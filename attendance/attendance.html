@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Attendance</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<div class="nav">
+  <a href="../index.html">Home</a> |
+  <a href="../dashboard/dashboard.html">Dashboard</a>
+</div>
+
+<h3>Subject-wise Attendance</h3>
+
+<input id="sid" placeholder="Student ID"><br><br>
+<input id="subject" placeholder="Subject"><br><br>
+<input id="total" placeholder="Total Classes"><br><br>
+<input id="attended" placeholder="Attended Classes"><br><br>
+
+<button onclick="saveAttendance(event)">Save</button>
+
+<pre id="result"></pre>
+
+<script src="attendance.js"></script>
+</body>
+</html>
